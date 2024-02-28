@@ -1,0 +1,17 @@
+/Users/emrec/RiderProjects/Solution1/RabbitMq.Publisher/bin/Debug/net7.0/RabbitMq.Publisher
+/Users/emrec/RiderProjects/Solution1/RabbitMq.Publisher/bin/Debug/net7.0/RabbitMq.Publisher.deps.json
+/Users/emrec/RiderProjects/Solution1/RabbitMq.Publisher/bin/Debug/net7.0/RabbitMq.Publisher.runtimeconfig.json
+/Users/emrec/RiderProjects/Solution1/RabbitMq.Publisher/bin/Debug/net7.0/RabbitMq.Publisher.dll
+/Users/emrec/RiderProjects/Solution1/RabbitMq.Publisher/bin/Debug/net7.0/RabbitMq.Publisher.pdb
+/Users/emrec/RiderProjects/Solution1/RabbitMq.Publisher/bin/Debug/net7.0/RabbitMQ.Client.dll
+/Users/emrec/RiderProjects/Solution1/RabbitMq.Publisher/obj/Debug/net7.0/RabbitMq.Publisher.csproj.AssemblyReference.cache
+/Users/emrec/RiderProjects/Solution1/RabbitMq.Publisher/obj/Debug/net7.0/RabbitMq.Publisher.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emrec/RiderProjects/Solution1/RabbitMq.Publisher/obj/Debug/net7.0/RabbitMq.Publisher.AssemblyInfoInputs.cache
+/Users/emrec/RiderProjects/Solution1/RabbitMq.Publisher/obj/Debug/net7.0/RabbitMq.Publisher.AssemblyInfo.cs
+/Users/emrec/RiderProjects/Solution1/RabbitMq.Publisher/obj/Debug/net7.0/RabbitMq.Publisher.csproj.CoreCompileInputs.cache
+/Users/emrec/RiderProjects/Solution1/RabbitMq.Publisher/obj/Debug/net7.0/RabbitMq.Publisher.csproj.CopyComplete
+/Users/emrec/RiderProjects/Solution1/RabbitMq.Publisher/obj/Debug/net7.0/RabbitMq.Publisher.dll
+/Users/emrec/RiderProjects/Solution1/RabbitMq.Publisher/obj/Debug/net7.0/refint/RabbitMq.Publisher.dll
+/Users/emrec/RiderProjects/Solution1/RabbitMq.Publisher/obj/Debug/net7.0/RabbitMq.Publisher.pdb
+/Users/emrec/RiderProjects/Solution1/RabbitMq.Publisher/obj/Debug/net7.0/RabbitMq.Publisher.genruntimeconfig.cache
+/Users/emrec/RiderProjects/Solution1/RabbitMq.Publisher/obj/Debug/net7.0/ref/RabbitMq.Publisher.dll
