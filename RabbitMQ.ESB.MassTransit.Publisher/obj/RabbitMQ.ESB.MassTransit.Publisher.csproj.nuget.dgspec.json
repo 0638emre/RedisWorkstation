@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/emrec/RiderProjects/Solution1/RabbitMQ.ESB.MassTransit.Publisher/RabbitMQ.ESB.MassTransit.Publisher.csproj": {}
+  },
+  "projects": {
+    "/Users/emrec/RiderProjects/Solution1/RabbitMQ.ESB.MassTransit.Publisher/RabbitMQ.ESB.MassTransit.Publisher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emrec/RiderProjects/Solution1/RabbitMQ.ESB.MassTransit.Publisher/RabbitMQ.ESB.MassTransit.Publisher.csproj",
+        "projectName": "RabbitMQ.ESB.MassTransit.Publisher",
+        "projectPath": "/Users/emrec/RiderProjects/Solution1/RabbitMQ.ESB.MassTransit.Publisher/RabbitMQ.ESB.MassTransit.Publisher.csproj",
+        "packagesPath": "/Users/emrec/.nuget/packages/",
+        "outputPath": "/Users/emrec/RiderProjects/Solution1/RabbitMQ.ESB.MassTransit.Publisher/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emrec/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/emrec/RiderProjects/Solution1/RabbitMQ.ESB.MassTransit.Shared/RabbitMQ.ESB.MassTransit.Shared.csproj": {
+                "projectPath": "/Users/emrec/RiderProjects/Solution1/RabbitMQ.ESB.MassTransit.Shared/RabbitMQ.ESB.MassTransit.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.2.0-develop.1700, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/emrec/RiderProjects/Solution1/RabbitMQ.ESB.MassTransit.Shared/RabbitMQ.ESB.MassTransit.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emrec/RiderProjects/Solution1/RabbitMQ.ESB.MassTransit.Shared/RabbitMQ.ESB.MassTransit.Shared.csproj",
+        "projectName": "RabbitMQ.ESB.MassTransit.Shared",
+        "projectPath": "/Users/emrec/RiderProjects/Solution1/RabbitMQ.ESB.MassTransit.Shared/RabbitMQ.ESB.MassTransit.Shared.csproj",
+        "packagesPath": "/Users/emrec/.nuget/packages/",
+        "outputPath": "/Users/emrec/RiderProjects/Solution1/RabbitMQ.ESB.MassTransit.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emrec/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
