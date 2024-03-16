@@ -1,0 +1,17 @@
+using MassTransit;
+using RabbitMQ.ESB.MassTransit.Shared.RequestResponseMessages;
+
+namespace RabbitMQ.ESB.MassTransit.RequestResponse.Consumer.Consumers;
+
+public class RequestMessageConsumer : IConsumer<RequestMessage>
+{
+    public async Task Consume(ConsumeContext<RequestMessage> context)
+    {
+        await Console.Out.WriteLineAsync(context.Message.Text);
+
+        await context.RespondAsync<ResponseMessage>(new()
+        {
+            Text = $"{context.Message.MessageNo}. response to request" 
+        });
+    }
+}

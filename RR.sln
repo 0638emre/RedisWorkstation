@@ -22,6 +22,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.ESB.MassTransit.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.ESB.MassTransit.Shared", "RabbitMQ.ESB.MassTransit.Shared\RabbitMQ.ESB.MassTransit.Shared.csproj", "{E07819B5-BC30-4534-BA93-D880A801F78D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MassTransitWorkerServiceExample", "MassTransitWorkerServiceExample", "{A5EA51DA-B0BB-4241-824E-5948BFD655A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQESB.MassTransit.WorkerService.Consumer", "RabbitMQESB.MassTransit.WorkerService.Consumer\RabbitMQESB.MassTransit.WorkerService.Consumer.csproj", "{6A7D0041-EEE7-482D-B84C-A154F87B0A88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQESB.MassTransit.WorkerService.Publisher", "RabbitMQESB.MassTransit.WorkerService.Publisher\RabbitMQESB.MassTransit.WorkerService.Publisher.csproj", "{2EAB068D-584E-4C6E-8217-461B44D2DB59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MasstRansitRequestResponseDesignPattern", "MasstRansitRequestResponseDesignPattern", "{6EA59790-1842-4625-83E6-B8BD30BBDCD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.ESB.MassTransit.RequestResponse.Publisher", "RabbitMQ.ESB.MassTransit.RequestResponse.Publisher\RabbitMQ.ESB.MassTransit.RequestResponse.Publisher.csproj", "{8E29F86D-91F8-4B98-8AD2-C2EC2411A92C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.ESB.MassTransit.RequestResponse.Consumer", "RabbitMQ.ESB.MassTransit.RequestResponse.Consumer\RabbitMQ.ESB.MassTransit.RequestResponse.Consumer.csproj", "{F002237E-3566-4615-87B1-1810179E7839}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,10 +80,32 @@ Global
 		{E07819B5-BC30-4534-BA93-D880A801F78D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E07819B5-BC30-4534-BA93-D880A801F78D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E07819B5-BC30-4534-BA93-D880A801F78D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7D0041-EEE7-482D-B84C-A154F87B0A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7D0041-EEE7-482D-B84C-A154F87B0A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7D0041-EEE7-482D-B84C-A154F87B0A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7D0041-EEE7-482D-B84C-A154F87B0A88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EAB068D-584E-4C6E-8217-461B44D2DB59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EAB068D-584E-4C6E-8217-461B44D2DB59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EAB068D-584E-4C6E-8217-461B44D2DB59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EAB068D-584E-4C6E-8217-461B44D2DB59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E29F86D-91F8-4B98-8AD2-C2EC2411A92C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E29F86D-91F8-4B98-8AD2-C2EC2411A92C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E29F86D-91F8-4B98-8AD2-C2EC2411A92C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E29F86D-91F8-4B98-8AD2-C2EC2411A92C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F002237E-3566-4615-87B1-1810179E7839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F002237E-3566-4615-87B1-1810179E7839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F002237E-3566-4615-87B1-1810179E7839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F002237E-3566-4615-87B1-1810179E7839}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C25DA7BD-7142-4703-8319-633E8688467A} = {49ACA1C1-200F-449C-A705-421F6108DDE3}
 		{19A8AFB7-9E9D-4C58-BC33-65B617B35B61} = {49ACA1C1-200F-449C-A705-421F6108DDE3}
 		{E07819B5-BC30-4534-BA93-D880A801F78D} = {49ACA1C1-200F-449C-A705-421F6108DDE3}
+		{A5EA51DA-B0BB-4241-824E-5948BFD655A3} = {49ACA1C1-200F-449C-A705-421F6108DDE3}
+		{6A7D0041-EEE7-482D-B84C-A154F87B0A88} = {A5EA51DA-B0BB-4241-824E-5948BFD655A3}
+		{2EAB068D-584E-4C6E-8217-461B44D2DB59} = {A5EA51DA-B0BB-4241-824E-5948BFD655A3}
+		{6EA59790-1842-4625-83E6-B8BD30BBDCD7} = {49ACA1C1-200F-449C-A705-421F6108DDE3}
+		{8E29F86D-91F8-4B98-8AD2-C2EC2411A92C} = {6EA59790-1842-4625-83E6-B8BD30BBDCD7}
+		{F002237E-3566-4615-87B1-1810179E7839} = {6EA59790-1842-4625-83E6-B8BD30BBDCD7}
 	EndGlobalSection
 EndGlobal
